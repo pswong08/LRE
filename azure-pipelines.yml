@@ -1,4 +1,14 @@
 # Starter pipeline
+- task: PerformanceCenterTesting@1
+  inputs:
+    varPCServer: 'http://121.121.42.19:80'
+    varUserName: 'admin'
+    varPassWord: 'Welcome123..'
+    varDomain: 'NH2'
+    varProject: 'AZURE'
+    varTestID: '175'
+    varTimeslotDuration: '30'
+    artifactsDirectory: '$(Build.ArtifactStagingDirectory)/LRETest'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
