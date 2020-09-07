@@ -6,7 +6,7 @@
     varPassWord: 'Welcome123..'
     varDomain: 'NH2'
     varProject: 'AZURE'
-    varTestID: '175'
+    varTestID: '176'
     varTimeslotDuration: '30'
     artifactsDirectory: '$(Build.ArtifactStagingDirectory)/LRETest'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
