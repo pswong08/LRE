@@ -17,3 +17,13 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+- task: PerformanceCenterTesting@1
+  inputs:
+    varPCServer: 'http://121.121.42.19/'
+    varUserName: 'admin'
+    varPassWord: 'Welcome123..'
+    varDomain: 'NH2'
+    varProject: 'AZURE'
+    varTestID: '176'
+    varTimeslotDuration: '30'
+    artifactsDirectory: '$(Build.ArtifactStagingDirectory)/LRETest'
