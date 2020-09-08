@@ -1,7 +1,7 @@
 # Starter pipeline
 - task: PerformanceCenterTesting@1
   inputs:
-    varPCServer: 'http://mylreserver:80'
+    varPCServer: 'http://121.121.42.19/'
     varUserName: 'admin'
     varPassWord: 'Welcome123..'
     varDomain: 'NH2'
